@@ -1,6 +1,6 @@
 # chat
 react chat appliaction
 
-# npm i
+npm i
 
-#npm start
+npm start
