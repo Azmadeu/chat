@@ -23,8 +23,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "chance": "^1.0.18",
     "prop-types": "^15.6.2",
     "react-redux": "^6.0.0",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "ws": "^6.1.2"
   }
 }
