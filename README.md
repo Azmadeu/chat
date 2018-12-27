@@ -1,4 +1,4 @@
-##npm i or yarn
+### npm install or yarn 
 
 frontend: `yarn or npm start`
 
