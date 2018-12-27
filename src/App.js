@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
 
 import MessagesList from './containers/MessagesList';
 import AddMessage from './containers/AddMessage';
 import SideBar from './containers/SideBar';
+import './App.css';
+
 
 class App extends Component {
   render() {
