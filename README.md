@@ -1,3 +1,3 @@
-frontend: ###`yarn start`
+frontend: `yarn start`
 
-server: ###`cd server/ && node app.js`
+server: `cd server/ && node app.js`
