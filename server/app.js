@@ -40,7 +40,7 @@ wss.on('connection', ws => {
         broadcast({
           type: 'ADD_MESSAGE',
           message: data.message,
-          author: data.author,
+          author: data.author
         }, ws);
         break;
       }
@@ -51,7 +51,7 @@ wss.on('connection', ws => {
   });
 
   ws.on('close', () => {
-    users.splice(index + 1);
+    users.splice(index, 1);
     broadcast({
       type: 'USERS_LIST',
       users
