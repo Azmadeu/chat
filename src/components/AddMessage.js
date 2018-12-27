@@ -7,13 +7,14 @@ const AddMessage = props => {
   return (
     <section id="new-message">
       <input
-        onKeyPress={(e) => {
+        onKeyPress={e => {
           if (e.key === 'Enter') {
             props.addMessage(input.value, 'Me');
             input.value = ''
           }
         }}
         type="text"
+        placeholder="Type new message here..."
         ref={(node) => {
           input = node
         }}
